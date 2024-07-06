@@ -4,8 +4,8 @@ In this repo below is code structure.
 2) Tag zaniaExercisePart3 has code and document for Part 3 of the exercise.
 3) Tag zaniaExercisePart4 has code and document for Part 4 of the exercise.
 
-## Part 1: Frontend and Part 2: Backend
-This is for part 1 & 2 of the exercise. The document for this code is PersonalLearningV1.docx.
+## Part 3: Tying it up!
+This is for part 3 of the exercise. The document for this code is PersonalLearningV2p1.docx. Although this is developed from Part 1 and Part 2, but truly it is not verified for part 1 and part 2 again. So it may not work for part 1 and part 2 of the exercise.
 
 ## Backend
 
