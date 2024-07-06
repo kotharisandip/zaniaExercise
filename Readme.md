@@ -4,21 +4,30 @@ In this repo below is code structure.
 2) Tag zaniaExercisePart3 has code and document for Part 3 of the exercise.
 3) Tag zaniaExercisePart4 has code and document for Part 4 of the exercise.
 
-## Part 3: Tying it up!
-This is for part 3 of the exercise. The document for this code is PersonalLearningV2p1.docx. Although this is developed from Part 1 and Part 2, but truly it is not verified for part 1 and part 2 again. So it may not work for part 1 and part 2 of the exercise.
+# Part 4: Document App
+This project is a simple document management application composed of a frontend (React) and backend (Flask) service. The application is containerized using Docker and orchestrated with Docker Compose.
 
-## Backend
+This is for part 4 of the exercise. The document for this code is PersonalLearningV3.docx. Although this is developed from Part 1, Part 2 and Part 3, but truly it is not verified for them again. So it may not work for part 1, Part 2 and part 3 of the exercise.
 
-### Requirements
-- Python 3.x
-- PostgreSQL
+## Prerequisites
 
-### Installation
+- Docker
+- Docker Compose
 
-#### Setting Up PostgreSQL Database
+## Getting Started
 
-1. Ensure PostgreSQL is installed and running on your system.
-2. Create the database and table by running the provided SQL script:
+### Running the Application
 
+1. Clone the repository:
    ```bash
-   psql -U your_username -f setup_database.sql
+   git clone https://github.com/your-repo/document-app.git
+   cd document-app
+
+#### Build and start the services:
+	docker-compose up --build
+Open your browser and navigate to http://localhost:3000 to see the frontend.
+
+##### Stopping the application
+To stop the applction, run:
+docker-compose down
+
